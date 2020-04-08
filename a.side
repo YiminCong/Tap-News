@@ -1,0 +1,68 @@
+{
+  "id": "cb6712b3-f8d1-4e5b-a414-3fa969bfe360",
+  "version": "2.0",
+  "name": "a",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "99fa2744-32be-416f-9060-25fb52f041af",
+    "name": "f\\",
+    "commands": [{
+      "id": "d8ac8f43-f661-4fb3-8b5c-171bea4d2677",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f39554ca-ddcb-46e9-87d4-71588f9315ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1527x946",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f4a2302-0b2f-4493-8236-28c31de732f9",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "samsung"
+    }, {
+      "id": "e4025f68-62b0-4dd5-8559-896b88c99684",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1dd0ca79-679d-44b9-8d5c-e64436bf03a6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "99c951f3-f073-4533-9365-a53fd86bd24a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["99fa2744-32be-416f-9060-25fb52f041af"]
+  }],
+  "urls": [],
+  "plugins": []
+}
