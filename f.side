@@ -5,7 +5,7 @@
   "url": "",
   "tests": [{
     "id": "9f96a90e-5e30-480d-9be3-f88d1e933fd9",
-    "name": "c_new",
+    "name": "c_new_local",
     "commands": [{
       "id": "a4e3c7d0-5b17-4b44-b9f7-386df27f8b3e",
       "comment": "",
@@ -18,7 +18,7 @@
     }]
   }, {
     "id": "a3fe06b9-384a-46dd-97ef-4aeaf8396e1d",
-    "name": "a_new_master",
+    "name": "a_new_local_no_force",
     "commands": [{
       "id": "86456700-ceef-4416-aee8-70505e264d74",
       "comment": "",
