@@ -5,7 +5,7 @@
   "url": "",
   "tests": [{
     "id": "9f96a90e-5e30-480d-9be3-f88d1e933fd9",
-    "name": "c_new_local",
+    "name": "c",
     "commands": [{
       "id": "a4e3c7d0-5b17-4b44-b9f7-386df27f8b3e",
       "comment": "",
