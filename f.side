@@ -5,12 +5,21 @@
   "url": "",
   "tests": [{
     "id": "9f96a90e-5e30-480d-9be3-f88d1e933fd9",
-    "name": "c_new_master",
+    "name": "c_local",
     "commands": [{
       "id": "a4e3c7d0-5b17-4b44-b9f7-386df27f8b3e",
       "comment": "",
-      "command": "if",
+      "command": "verifyChecked",
       "commandId": "ddbacbf3-17a3-4f85-8e86-3da161a0092d",
+      "newId": "9f96a90e-5e30-480d-9be3-f88d1e933fd9",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e41b12dd-aeb9-47ee-b740-6fb5ec986f19",
+      "comment": "",
+      "command": "addSelection",
+      "commandId": "6799f651-60a2-4019-9cf8-842a4f8e3f95",
       "newId": "9f96a90e-5e30-480d-9be3-f88d1e933fd9",
       "target": "",
       "targets": [],
